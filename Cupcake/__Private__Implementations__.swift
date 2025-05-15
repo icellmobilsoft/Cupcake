@@ -2668,7 +2668,6 @@ extension UITextView {
         }
         
         NotificationCenter.default.removeObserver(self)
-        self.cpk_deinit()
     }
     
     private func cpk_watchTextChange() {
